@@ -100,11 +100,11 @@ function Navbar() {
                 <div className="border-t border-gray-200 px-4 py-6">
                   <a href="#" className="-m-2 flex items-center p-2">
                     <img
-                      src="img/indiaflag.png"
+                      src=""
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-base font-medium text-gray-900" style={{ color: mode === 'dark' ? 'white' : '', }}>INDIA</span>
+                    <span className="ml-3 block text-base font-medium text-gray-900" style={{ color: mode === 'dark' ? 'white' : '', }}>B_D</span>
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>
@@ -117,7 +117,7 @@ function Navbar() {
       <header className="relative bg-white">
         <p className="flex h-10 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8" 
         style={{ backgroundColor: mode === 'dark' ? 'rgb(62 64 66)' : '', color: mode === 'dark' ? 'white' : '', }}>
-          Get free delivery on orders over ₹300
+          Get free delivery on orders over TK-300
         </p>
 
         <nav aria-label="Top" className="bg-gray-100 px-4 sm:px-6 lg:px-8 shadow-xl " style={{ backgroundColor: mode === 'dark' ? '#282c34' : '', color: mode === 'dark' ? 'white' : '', }}>
@@ -139,7 +139,7 @@ function Navbar() {
               <div className="ml-4 flex lg:ml-0">
                 <Link to={'/'} className='flex'>
                   <div className="flex ">
-                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>E-Bharat</h1>
+                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>E-Commarch</h1>
                   </div>
                 </Link>
               </div>
@@ -170,11 +170,11 @@ function Navbar() {
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="flex items-center text-gray-700 ">
                     <img
-                      src="https://ecommerce-sk.vercel.app/img/indiaflag.png"
+                      src="https://ecommerce-sk.vercel.app/img/indiaflag."
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium" style={{ color: mode === 'dark' ? 'white' : '', }}>INDIA</span>
+                    <span className="ml-3 block text-sm font-medium" style={{ color: mode === 'dark' ? 'white' : '', }}>B_D</span>
                   </a>
                 </div>
                 <div className="hidden lg:ml-8 lg:flex">
@@ -204,7 +204,7 @@ function Navbar() {
                     </svg>
 
                     <span className="ml-2 text-sm font-medium text-gray-700 group-" style={{ color: mode === 'dark' ? 'white' : '', }}>{cartItems.length}</span>
-                    <span className="sr-only">items in cart, view bag</span>
+                    <span className="sr-only">Warehouse, view bag</span>
                   </Link>
                 </div>
               </div>
